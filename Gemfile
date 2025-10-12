@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "faraday-retry", "~> 2.2.1"
+gem "faraday-retry", "~> 2.3.0"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 gem "nokogiri", "~> 1.18.3"
 
@@ -8,7 +8,7 @@ group :test do
   gem "fastimage"
   gem "httparty"
   gem "minitest"
-  gem "octokit"
+  gem "octokit", ">= 5.0.0"
   gem "pry", require: false
   gem "rake"
   gem "rubocop"
